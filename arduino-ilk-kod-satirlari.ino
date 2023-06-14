@@ -4,13 +4,10 @@
 
 void setup() {
 
-
-
   // Çalıştırmadan önce kodu buradan kurun
   // void setup(){ la kod istemini başlatır kod sonunda "}" işaretiyle kapatırız.
   
 pinMode(aktif_led,OUTPUT);
-
 
    // pinMode(aktif_led,OUTPUT); işlemiyle beraber, pin'in aktif_led.port(çıkış/giriş) pinine bağlı noktalı virgülle ";" belirtiriz.
 
@@ -32,7 +29,5 @@ delay(500);
   // tekrardan delay(100); yaptığımızda kaç ms'de söndüğünü görürüz ve kodu istemini sonlandıranana kadar işlem tekrar eder.
 
 }
-
-
   // Arduino Uno,direnç,pin ve çalışma yaptığımız board'la düzgün bağlatında olduğunuzdan emin oldun.
   // Jumper kabloyu taktığınız pinin karşılığında başka bir jumper kabloyu "GND" pinine takınız. 
