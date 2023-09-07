@@ -2,7 +2,7 @@
 
 #define active_led 8
 
-//With the define command here, we specify that the active_led name is the led connected to port 8.
+// With the define command here, we specify that the active_led name is the led connected to port 8.
 
 void setup() {
 
@@ -29,7 +29,7 @@ delay(500);
 // delay(100); indicates how many ms it lights up.
 // digitalWrite(active_led,LOW); operation, we send low voltage to active_led "pin 8" and turn off the led.
 // when we do delay(100); again, we see how many ms it goes out and the process repeats until the code terminates the prompt.
-
 }
+
 // Make sure you are properly connected to the Arduino Uno, resistor, pin and the board we are working with.
 // Connect another jumper cable to the "GND" pin opposite to the pin you connected the jumper cable to. 
